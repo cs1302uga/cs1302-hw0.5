@@ -38,7 +38,7 @@ for the first time.
 1. Take a moment to think about the process of downloading this code from GitHub (you just typed a single command) and
    compare that process to what you had to do to get started last week (saving the file to your hard drive, locating your
    favorite IDE, creating a project in your IDE, importing the code, etc.).
-1. Now that we've got our environment set up, we want you to complete the `TicTacToeGame.java` file on Odin. Please do this
+1. Now that we've got our environment set up, we want you to complete `TicTacToeGame.java` on Odin using Emacs. Please do this
    without copying and pasting your code from an IDE. The purpose of this part of the exercise is for you to get practice with
    Emacs. It will feel slow and error-prone at first. However, you will get much faster over time. Note: You should have 
    already implemented these methods (if you haven't, please go back to the first part of this assignment).
