@@ -40,18 +40,18 @@ for the first time.
    favorite IDE, creating a project in your IDE, importing the code, etc.).
 1. Now that we've got our environment set up, we want you to complete `TicTacToeGame.java` on Odin using Emacs. Please do this
    without copying and pasting your code from an IDE. The purpose of this part of the exercise is for you to get practice with
-   Emacs. It will feel slow and error-prone at first. However, you will get much faster over time. Note: You should have 
+   Emacs. It may feel slow and error-prone at first. However, you will get much faster over time. Note: You should have 
    already implemented these methods (if you haven't, please go back to the first part of this assignment).
 1. Once your code is completed, exit the Emacs text editor. You should still be in the `cs1302-hw0.5` diretory.
 1. Create a new folder called `bin` directly within the `cs1302-hw0.5` directory.
 1. Compile the three Java files located in the `src` directory - placing the byte code (`.class`) files in the `bin`
-   directory. Remember to use the `-d` command-line option when compiling.
+   directory (remember, order matters!). Also, don't forget to use the `-d` command-line option when compiling.
 1. If you have any syntax errors, note where the error occurs, go back into `TicTacToeGame.java` and fix the errors.
 1. Once your code compiles, run the `TicTacToeTester` class and make sure it passes all tests. If not, fix the bugs in the
    code before proceeding.
 1. Once the `TicTacToeTester` passes all of the provided tests, run the `TicTacToeRunner` and play a few games of
-   Tic-Tac-Toe.
-
+   Tic-Tac-Toe keeping an eye out for any bugs that may not have been caught by the tester. If you're confident that your
+   code is working, proceed to the next checkpoint.
 
 <hr/>
 
@@ -61,8 +61,8 @@ for the first time.
 
 ### Checkpoint 2 Steps
 
-1. In this checkpoint, we want to make sure our code is readable and follows the course style guidelines. These guidelines
-   are laid out in the [1302 Style Guide](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#recommended-emacs-configurations).
+1. In this checkpoint, we want to make sure our code is readable and follows the course style guidelines which
+   are described in the [1302 Style Guide](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#recommended-emacs-configurations).
 1. Take a few minutes to read up to the "Recommended Emacs Configurations" section of the 
    [style guide](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#recommended-emacs-configurations), which explains
    the motivation behind having good code style.
@@ -70,7 +70,7 @@ for the first time.
    to see if you have any style errors.
 1. If you receive any style errors, you can find a description of the error along with what causes the error in the 
    [Specific Guidelines](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#specific-guidelines) section of the guide.
-   Again, there's no need to memorize the different types of errors. You will have access to the guide when coding in this course.
+   There is no need to memorize the different types of errors. You will have access to the guide when coding in this course.
 1. When there are no more style errors, you should see the following output after running `check1302` on your code:
 
    ```
