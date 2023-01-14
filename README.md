@@ -1,9 +1,11 @@
-# cs1302-hw00 Implementing Tic-Tac-Toe
+# cs1302-hw0.5 Implementing Tic-Tac-Toe - Part 2
 
 ![Approved for: Spring 2023](https://img.shields.io/badge/Approved%20for-Spring%202023-magenta)
 
-This class exercise is designed to review prerequisite material by having students implement
-methods to complete a command-line Tic-Tac-Toe game given some of the code as a starting point.
+This homework is designed to give students the opportunity to complete the Tic-Tac-Toe game in a Unix
+environment. This homework also explores the `check1302` program that helps students check their code
+style. At the end of the assignment, students will have an opportunity to submit an assignment on Odin
+for the first time.
 
 ## Prerequisite Knowledge
 
@@ -11,8 +13,18 @@ methods to complete a command-line Tic-Tac-Toe game given some of the code as a 
 
 ## Exercise Steps
 
-### Checkpoint 1 Steps - Implementing the Tic-Tac-Toe Methods
+### Checkpoint 1 Steps
 
+1. Log into your Odin account. You should not use an IDE to complete this homework. Instead, you are expected 
+   to use Odin and Emacs.
+   
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-hw0.5`:
+
+   ```
+   $ git clone --depth 1 https://github.com/cs1302uga/cs1302-hw0.5.git
+   ```
+   
+1. 
 1. Click the link for the [starter code](https://github.com/cs1302uga/cs1302-ce0.5/blob/main/src/TicTacToeGame.java)
 2. Right-click on the button labeled "Raw" near the top of the page.
 3. Select "Save Link as" or "Download Linked File As" and save the file somewhere on your local machine.
@@ -82,8 +94,31 @@ interfaces (such as graphical user interfaces) would also work with your impleme
 
 ### Submission Steps
 
-You will not submit this assignment. However, this is a warm-up for the first project. Make sure you understand
-the concepts needed for this exercise as all of them will be necessary for the larger project.
+**Each student needs to individually submit their own work.**
+
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-hw0.5`
+   directory with your name and UGA ID number.
+   
+   Here is an example of the contents of `SUBMISSION.md`.
+   
+   ```
+   Sally Smith (811-000-999)
+   ```
+
+1. Change directories to the parent of `cs1302-hw0.5` (e.g., `cd ..` from `cs1302-hw0.5`).
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-hw0.5 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
 
 <hr/>
 
