@@ -18,42 +18,38 @@ for the first time.
 1. Log into your Odin account. You should not use an IDE to complete this homework. Instead, you are expected 
    to use Odin and Emacs.
    
-1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-hw0.5`:
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-hw0.5` using
+   the following command (remember not to type the `$` as that represents our prompt):
 
    ```
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-hw0.5.git
    ```
    
+1. Change into the `cs1302-hw0.5` directory and type the `tree` command. You should see three familiar files under
+   the `src` directory. This is the same code you downloaded and completed in the previous homework assignment.
+1. Without changing directories, open the `TicTacToeGame.java` file using Emacs. Take a minute to look through the
+   file. You should recognize this as the original file without any of the modifications you made last week.
+1. Take a moment to think about the process of downloading this code from GitHub (you just typed a single command) and
+   compare that process to what you had to do to get started last week (saving the file to your hard drive, locating your
+   favorite IDE, creating a project in your IDE, importing the code, etc.).
+1. Now that we've got our environment set up, we want you to complete the `TicTacToeGame.java` file on Odin. Please do this
+   without copying and pasting your code from an IDE. The purpose of this part of the exercise is for you to get practice with
+   Emacs. It will feel slow and error-prone at first. However, you will get much faster over time. Note: You should have 
+   already implemented these methods (if you haven't, please go back to the first part of this assignment).
+1. Once your code is completed, exit the Emacs text editor. You should still be in the `cs1302-hw0.5` diretory.
+1. Create a new folder called `bin` directly within the `cs1302-hw0.5` directory.
+1. Compile the three Java files located in the `src` directory - placing the byte code (`.class`) files in the `bin`
+   directory. Remember to use the `-d` command-line option when compiling.
+1. If you have any syntax errors, note where the error occurs, go back into `TicTacToeGame.java` and fix the errors.
+1. Once your code compiles, run the `TicTacToeTester` class and make sure it passes all tests. If not, fix the bugs in the
+   code before proceeding.
+1. Once the `TicTacToeTester` passes all of the provided tests, run the `TicTacToeRunner` and play a few games of
+   Tic-Tac-Toe.
+   
+### Checkpoint 2 Steps
+
 1. 
-1. Click the link for the [starter code](https://github.com/cs1302uga/cs1302-ce0.5/blob/main/src/TicTacToeGame.java)
-2. Right-click on the button labeled "Raw" near the top of the page.
-3. Select "Save Link as" or "Download Linked File As" and save the file somewhere on your local machine.
-4. Create a new Java project within your favorite Java IDE (Eclipse, IntelliJ, etc.) and add `TicTacToeGame.java` to
-   the project.
-5. Read through the comments in the source code. As you are looking through the code, answer the following
-   questions in your notes:
-   * How many instance variables are found in the class? 
-   * What are the names of each instance variable?
-   * What do you think the purpose is of each instance variable?
-   * How many methods are there in total?
-   * How many methods still need to be implemented? What are the names of these methods?
-6. Implement the `playMove` method. Things to consider as you work through it:
-   * What do the comments tell us about how we might implement the method?
-   * What are the inputs/outputs of the method?
-   * What happens when the method receives input corresponding to an invalid move?
-   * Are there any existing methods that we can use to help make the implementation easier?
-7. Implement the `isFull` method. Things to consider as you work through it:
-   * What does it mean for the board to be "full"?
-   * How do we access the game board from within the method?
-   * Should we use loop(s) in our implementation?
-8. Implement the `isWinner` method. Things to consider as you work through it:
-   * What does it mean for one player to win?
-   * Should we use loop(s) in our implementation?
-9. Implement the `isCat` method. Things to consider as you work through it:
-   * What exactly does it mean for the game to be a tie? The more specific you are, the easier
-     it will be to turn your idea into code.
-   * What other methods can we call to simplify the implementation? 
-   * Hint: you can implement this method in just one line of code!
+
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
