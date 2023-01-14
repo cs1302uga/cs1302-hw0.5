@@ -13,10 +13,14 @@ for the first time.
 
 ## Exercise Steps
 
-### Checkpoint 1 Steps
-
+## Setup Steps
 1. Log into your Odin account. You should not use an IDE to complete this homework. Instead, you are expected 
    to use Odin and Emacs.
+
+1. Complete the [Recommended Emacs Configurations](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#recommended-emacs-configurations)
+   section of the CSCI 1302 Style Guide (more details soon). This will set up Emacs to minimize style errors later in the assignment.
+   **Note:** Do not skip this step. Setting up your Emacs environment will help you avoid issues throughout the semester. If you have
+   questions about this part, please don't hesitate to ask on the course Piazza page or ask an instructor/TA during office hours.
    
 1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-hw0.5` using
    the following command (remember not to type the `$` as that represents our prompt):
@@ -25,6 +29,8 @@ for the first time.
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-hw0.5.git
    ```
    
+### Checkpoint 1 Steps
+
 1. Change into the `cs1302-hw0.5` directory and type the `tree` command. You should see three familiar files under
    the `src` directory. This is the same code you downloaded and completed in the previous homework assignment.
 1. Without changing directories, open the `TicTacToeGame.java` file using Emacs. Take a minute to look through the
@@ -45,10 +51,7 @@ for the first time.
    code before proceeding.
 1. Once the `TicTacToeTester` passes all of the provided tests, run the `TicTacToeRunner` and play a few games of
    Tic-Tac-Toe.
-   
-### Checkpoint 2 Steps
 
-1. 
 
 <hr/>
 
@@ -56,35 +59,30 @@ for the first time.
 
 <hr/>
 
-### Checkpoint 2 Steps - Testing your Implementation
+### Checkpoint 2 Steps
 
-In software development, it is important to **thoroughly** test all of the methods you write by writing
-test code to go along with the implementation. Luckily, a test program for our Tic-Tac-Toe implementation 
-already exists. To test the code you wrote, download 
-[`TicTacToeTester.java`](https://github.com/cs1302uga/cs1302-ce0.5/blob/main/src/TicTacToeTester.java) and
-add it to your existing project. Then, run the code. If you encounter errors, work with your group to resolve
-the issues in those methods.
+1. In this checkpoint, we want to make sure our code is readable and follows the course style guidelines. These guidelines
+   are laid out in the [1302 Style Guide](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#recommended-emacs-configurations).
+1. Take a few minutes to read up to the "Recommended Emacs Configurations" section of the 
+   [style guide](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#recommended-emacs-configurations), which explains
+   the motivation behind having good code style.
+1. [Run the `check1302` command ](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#run-checkstyle) on your `src` directory
+   to see if you have any style errors.
+1. If you receive any style errors, you can find a description of the error along with what causes the error in the 
+   [Specific Guidelines](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#specific-guidelines) section of the guide.
+   Again, there's no need to memorize the different types of errors. You will have access to the guide when coding in this course.
+1. When there are no more style errors, you should see the following output after running `check1302` on your code:
 
-Generally, when we test methods in a larger software system, we will test each method thoroughly as we write it.
-As you can probably imagine, you don't want to write too much code before testing as bugs can be much harder
-to find in large projects. We will discuss ways to effectively approach this later in the semester.
+   ```
+   Starting audit...
+   Audit done.
+   ```
+   
+1. Congratulations on a nice, working Tic-Tac-Toe game written on Unix with good code style! You're now ready to submit the application.
 
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
-
-<hr/>
-
-### Checkpoint 3 Steps - Play the Game!
-
-Now that your code is implemented and tested, play the game against your neighbor! To do this, download
-[`TicTacToeRunner.java`](https://github.com/cs1302uga/cs1302-ce0.5/blob/main/src/TicTacToeRunner.java) and add
-it to your existing project. This class serves as a command-line interface for your game. Please note that other
-interfaces (such as graphical user interfaces) would also work with your implementation!
-
-<hr/>
-
-![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
 
 <hr/>
 
