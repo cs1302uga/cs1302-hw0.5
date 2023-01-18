@@ -46,6 +46,7 @@ for the first time.
 1. Create a new folder called `bin` directly within the `cs1302-hw0.5` directory.
 1. Compile the three Java files located in the `src` directory - placing the byte code (`.class`) files in the `bin`
    directory (remember, order matters!). Also, don't forget to use the `-d` command-line option when compiling.
+   * Note that the Java files are not in a named package. For this homework, compiling to the default package is okay.
 1. If you have any syntax errors, note where the error occurs, go back into `TicTacToeGame.java` and fix the errors.
 1. Once your code compiles, run the `TicTacToeTester` class and make sure it passes all tests. If not, fix the bugs in the
    code before proceeding.
