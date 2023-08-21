@@ -1,6 +1,6 @@
 # cs1302-hw0.5 Implementing Tic-Tac-Toe - Part 2
 
-![Approved for: Spring 2023](https://img.shields.io/badge/Approved%20for-Spring%202023-magenta)
+![Approved for: Fall 2023](https://img.shields.io/badge/Approved%20for-Fall%202023-green)
 
 This homework is designed to give students the opportunity to complete the Tic-Tac-Toe game in a Unix
 environment. This homework also explores the `check1302` program that helps students check their code
