@@ -18,9 +18,7 @@ for the first time.
    to use Odin and Emacs.
 
 1. Complete the [Recommended Emacs Configurations](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#recommended-emacs-configurations)
-   section of the CSCI 1302 Style Guide (more details soon). This will set up Emacs to minimize style errors later in the assignment.
-   **Do not skip this step**. Setting up your Emacs environment will help you avoid issues throughout the semester. If you have
-   questions about this part, please don't hesitate to ask on the course Piazza page or ask an instructor/TA during office hours.
+   section of the CSCI 1302 Style Guide (more details soon).
    
 1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-hw0.5` using
    the following command (remember not to type the `$` as that represents our prompt):
