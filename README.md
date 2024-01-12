@@ -1,6 +1,6 @@
 # cs1302-hw0.5 Implementing Tic-Tac-Toe - Part 2
 
-![Approved for: Fall 2023](https://img.shields.io/badge/Approved%20for-Fall%202023-green)
+![Approved for: Spring 2024](https://img.shields.io/badge/Approved%20for-Spring%202024-blue)
 
 This homework is designed to give students the opportunity to complete the Tic-Tac-Toe game in a Unix
 environment. This homework also explores the `check1302` program that helps students check their code
@@ -43,7 +43,7 @@ for the first time.
 1. Once your code is completed, exit the Emacs text editor. You should still be in the `cs1302-hw0.5` diretory.
 1. Create a new folder called `bin` directly within the `cs1302-hw0.5` directory.
 1. Compile the three Java files located in the `src` directory - placing the byte code (`.class`) files in the `bin`
-   directory (remember, order matters!). Also, don't forget to use the `-d` command-line option when compiling.
+   directory (remember, compilation order matters!). Also, don't forget to use the `-d` command-line option when compiling.
    * Note that the Java files are not in a named package. For this homework, compiling to the default package is okay.
 1. If you have any syntax errors, note where the error occurs, go back into `TicTacToeGame.java` and fix the errors.
 1. Once your code compiles, run the `TicTacToeTester` class and make sure it passes all tests. If not, fix the bugs in the
