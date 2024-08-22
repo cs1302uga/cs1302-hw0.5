@@ -61,7 +61,7 @@ for the first time.
 ### Checkpoint 2 Steps
 
 1. In this checkpoint, we want to make sure our code is readable and follows the course style guidelines which
-   are described in the [1302 Style Guide](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#recommended-emacs-configurations).
+   are described in the [1302 Style Guide](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md).
 1. Take a few minutes to read up to the "Recommended Emacs Configurations" section of the 
    [style guide](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#recommended-emacs-configurations), which explains
    the motivation behind having good code style.
