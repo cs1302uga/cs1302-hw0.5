@@ -71,9 +71,8 @@ for the first time.
    * If `check1302` reports a Missing Javadoc Error, you should add a Javadoc comment to the method it highlights.
      Since we haven’t officially covered Javadoc comments in the course yet, please use the existing methods in `TicTacToeGame.java`
      that have valid Javadoc comments as examples. If you have any questions about the syntax or what should be included, don't
-     hesitate to ask
+     hesitate to ask.
 
-Editgood answer
 1. If you receive any style errors, you can find a description of the error along with what causes the error in the 
    [Specific Guidelines](https://github.com/cs1302uga/cs1302-styleguide/blob/master/README.md#specific-guidelines) section of the guide.
    There is no need to memorize the different types of errors. You will have access to the guide when coding in this course.
