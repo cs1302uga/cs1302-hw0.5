@@ -27,7 +27,8 @@ public class TicTacToeRunner {
         // the main game loop
         while ( ! ( ttt.isWinner('X') || ttt.isWinner('O') || ttt.isFull() ) ) {
             ttt.displayBoard();
-            System.out.print( "'" + p + "', enter your location separated by a space (row column): " );
+            String prompt =  "'" + p + "', enter your location separated by a space (row column): ";
+            System.out.print( prompt );
             r = keyboard.nextInt();
             c = keyboard.nextInt();
 
